@@ -1,0 +1,40 @@
+/*Attribute selectors*/
+input [type="text"] {
+    border: 3px rgb(0, 170, 255);
+}
+input [type="password"] {
+    border: 3px rgb(55, 255, 0);
+}
+/*Child selectors*/
+ul > li {
+    color: rgb(165, 42, 42);
+
+}
+/*Sibling selectors*/
+h1 + p {
+    color: rgb(43, 177, 226);
+}
+a:hover {
+    color: chartreuse;
+}
+li:nth-child(2) {
+    background-color: cadetblue;
+    
+}
+
+#heading1::before {
+    content:"🌤️";
+}
+#paragraph::after {
+    content: "️🌍";
+}
+
+#paragraph::first-letter {
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+    
+   
+    
