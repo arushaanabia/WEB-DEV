@@ -1,0 +1,39 @@
+* {
+    padding: 10px;
+    background-color: azure;
+}
+    
+#apple {
+    color: red;
+    top: 0px;
+    border: 2px solid #eb0505;
+    font-size: 25px;
+    position: sticky;
+}
+
+#banana {
+    color: rgb(255, 184, 6);
+    top: 0px;
+    border: 2px solid #FFD700;
+    font-size: 25px;
+    position: relative;
+    
+}
+
+#orange {
+    color: darkorange;
+    font-size: 25px;
+    border: 2px solid #FF8C00;
+    position: relative;
+    left: 20px;
+}
+
+
+#grape {
+    color: purple;
+    top: 19`0px;
+    width: 500px;
+    font-size: 25px;
+    border: 2px solid #800080;
+    position: fixed;
+}
